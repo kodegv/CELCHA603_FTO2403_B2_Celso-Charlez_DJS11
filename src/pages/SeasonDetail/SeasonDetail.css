@@ -1,0 +1,58 @@
+.season-detail {
+    padding: 20px;
+}
+
+.season-detail div:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.season-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.episode-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.episode-number {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 2em;
+}
+
+.episode-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.episode-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.episode-description {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.favorite-button-container {
+  margin-left: auto;
+  padding-left: 10px;
+}
