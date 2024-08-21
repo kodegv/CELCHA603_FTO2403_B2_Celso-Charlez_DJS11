@@ -1,0 +1,102 @@
+.show-details {
+    position: relative;
+    padding: 1rem;
+    max-width: 1200px;
+    margin-top: 180;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .back-button {
+    position: absolute;
+      top: 10px;
+      left: 10px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 2rem;
+      color: white;
+  }
+  
+  .show-header {
+    color: white;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  
+  .show-description {
+    margin-top: 10px;
+  }
+  
+  .show-description.full {
+    max-width: 100%;
+  }
+  
+  .show-more {
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .season-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .seasons {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    gap: 30px;
+    padding: 20px 0;
+    margin-top: 20px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+  
+  .seasons::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  
+  .season-item {
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-right: 20px;
+  }
+  
+  .season-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .season-item img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .scroll-button.left {
+    left: 0;
+  }
+  
+  .scroll-button.right {
+    right: 0;
+  }
