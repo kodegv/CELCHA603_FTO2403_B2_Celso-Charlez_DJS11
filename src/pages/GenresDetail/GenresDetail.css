@@ -1,0 +1,62 @@
+.genre-detail-page {
+    padding: 20px;
+  }
+
+  .genre-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .genre-header {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .shows-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .show-item div:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+.show-item {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-header {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 5px;
+  height: 350px;
+}
+
+  .show-header h1 {
+    margin: 0;
+  }
+
+  .show-header div {
+    margin-top: 10px;
+  }
+
+
+  @media (max-width: 768px) {
+    .shows-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
