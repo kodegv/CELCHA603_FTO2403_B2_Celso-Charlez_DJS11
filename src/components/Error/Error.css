@@ -1,0 +1,29 @@
+/* ErrorPage.css */
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .error-icon {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .error-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  .error-page p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
