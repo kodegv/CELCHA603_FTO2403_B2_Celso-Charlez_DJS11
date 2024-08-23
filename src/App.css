@@ -1,0 +1,28 @@
+.body-content {
+    margin: 180px auto;
+    max-width: 1200px;
+    padding-left: 20px;  
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light 300;
+  font-style: normal;
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  
+}
+
+@media (max-width: 768px) {
+  .body-content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 10px; 
+    padding-right: 10px;
+  }
+}
