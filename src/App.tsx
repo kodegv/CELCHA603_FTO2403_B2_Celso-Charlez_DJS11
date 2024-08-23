@@ -15,10 +15,9 @@ import Genres from "./pages/Genres/Genres";
 import GenreDetail from './pages/GenresDetail/GenreDetail';
 
 
-import './App.css' // global styling
+
+import './App.css' // For global styling in future
 import './styles/themes.css'
-
-
 
 const getInitialTheme = () => {
   const savedTheme = localStorage.getItem('theme') as 'light' | 'dark';
