@@ -5,7 +5,7 @@ import { fetchShowsAndGenres } from "../../utils/apiRequests";
 import { Link } from "react-router-dom";
 import Loading from "../../components/Loading/Loading";
 import Error from "../../components/Error/Error";
-import { isErrorWithMessage } from "../../utils/funstionsUtils";
+import { isErrorWithMessage } from "../../utils/functionsUtils";
 import SortButton from "../../components/SortButton/SortButton";
 import SearchQuery from "../../components/SearchQuery/SearchQuery";
 import { format } from 'date-fns';
