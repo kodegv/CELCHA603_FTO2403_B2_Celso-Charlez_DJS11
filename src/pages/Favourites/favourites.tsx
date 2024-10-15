@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FavouriteDetail } from '../../utils/Interfaces';
-import FavouriteSortButton from '../../components/SortButton/FavourtieSortButton';
+import FavouriteSortButton from '../../components/SortButton/FavouriteSortButton';
 import './Favourites.css';
 import { RiDeleteBin2Fill } from 'react-icons/ri';
 import { AiFillDownCircle } from "react-icons/ai";
