@@ -77,15 +77,6 @@ export default function Header({
                     </span>
                     
               
-                <div className="user-actions">
-                    <button onClick={toggleTheme}>
-                        {
-                            theme === 'dark' 
-                            ? <MdOutlineLightMode className="icon" />
-                            : <MdDarkMode className="icon" />
-                        }
-                    </button>
-                </div>
    
 
         </div>    
