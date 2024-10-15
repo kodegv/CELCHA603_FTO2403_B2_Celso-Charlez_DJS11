@@ -1,6 +1,9 @@
 # 🎵 [SOUNDLY](https://66c88346d4764d32c0cdf349--dazzling-dasik-42992c.netlify.app/) | PORTFOLIO PIECE 💿
 [DJS11] Starter Instructions for the Final Portfolio Piece Submission 🚀
 
+**Netlify Issue**
+I've attempted to launch my project on Netlify, but it returns with multiple errors with login, and a console issue I'm not able to resolve.
+![Netlify Error](https://files.fivemerr.com/images/b414cf6c-04bc-4cfb-b847-4011462c5067.png)
 
 <!-- omit in toc -->
 **Table of Contents**
